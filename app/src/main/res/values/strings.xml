@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Lab2</string>
+    <string name="app_name">Labb1</string>
+    <string name="hello_message">Hello World!</string>
+    <string name="ButtonText">I\'m a button</string>
+
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_list_items">ListItemsActivity</string>
+    <string name="title_activity_login_">Login_Activity</string>
+
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Labb3</string>
+    <string name="hello_message">привет!</string>
+    <string name="ButtonText">я кнопка </string>
+</resources>

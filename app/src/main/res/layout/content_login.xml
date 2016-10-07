@@ -9,55 +9,39 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.mycomp.labb1.LoginActivity"
+
     tools:showIn="@layout/activity_login"
     android:weightSum="1"
     android:orientation="vertical">
 
 
-
-
-
-
-
-
-
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:text="@string/Login"
         android:id="@+id/textView2"
-        android:layout_gravity="left|bottom"
-        android:text="@string/title_activity_login"
-
-        />
+        android:layout_gravity="left|bottom" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="login name"
+
+        android:hint="@string/Login_name"
         android:inputType="textEmailAddress"
-        android:id="@+id/textView4"
-        android:layout_weight="0.08" />
+        android:id="@+id/userField"/>
 
     <TextView
-        android:layout_width="72dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Password"
+        android:text="@string/Password"
         android:id="@+id/textView3" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="login name"
-        android:inputType="textPassword"
 
-
-        />
-
+        android:id="@+id/passField"
+        android:inputType="textPassword" />
 
 
 </LinearLayout>

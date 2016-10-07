@@ -13,19 +13,19 @@ package="com.example.mycomp.lab2">
 
     <activity android:name=".LoginActivity">
 
-
-
-    </activity>
-
-
-    <activity android:name=".ListItemsActivity">
-
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
 
         </intent-filter>
+
+    </activity>
+
+
+    <activity android:name=".ListItemsActivity">
+
+
 
     </activity>
 </application>

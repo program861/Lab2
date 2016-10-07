@@ -74,6 +74,7 @@ public class ChatWindow extends AppCompatActivity {
     protected void onRestart() {
         super.onRestart();
         Log.i(ACTIVITY_NAME, "onRestart");
+
     }
 }
 
